@@ -11,7 +11,6 @@ test:
 - run: python tests.py
 workflows:
 build_and_test:
-jobs:
 - build
 - test:
 requires:
