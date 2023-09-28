@@ -1,4 +1,3 @@
-version: 2.1
 jobs:
 build:
 docker:
@@ -8,7 +7,6 @@ steps:
 - run: python main.py
 test:
 - image: cimg/python:3.11
-steps:
 - checkout
 - run: python tests.py
 workflows:
